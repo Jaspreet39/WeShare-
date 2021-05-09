@@ -1,0 +1,27 @@
+.suggest{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #054752;
+    color: white;
+    text-align: left;
+    left: 50%;
+    border: 1px solid black;
+    margin-top: 90px;;
+    position: absolute;
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+    width: 600px;
+}
+.suggest_text{
+    margin-left: 10px;
+}
+.suggest_text > h3{
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.suggest_text > h4{
+    font-weight: 500;
+    margin-bottom: 5px;
+}

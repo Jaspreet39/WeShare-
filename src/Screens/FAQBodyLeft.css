@@ -1,0 +1,74 @@
+.faqBodyLeft{
+    flex: 0.4;   
+    
+}
+.faqBodyLeft_text{
+    width: 350px;
+    margin-left: 300px;
+    margin-top: 60px;
+    border-right: 1px solid lightgray;
+}
+.faqBodyLeft_text > h3{
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.account{
+    font-weight: 500;
+    color: #111;
+}
+.intro{
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+.faqBodyLeft_text >hr{
+   margin-top: 20px;
+   margin-right: 10px;
+   border: 1px solid lightgray;
+}
+.covid_precaution{
+    margin-left: 30px;
+}
+.covid_precaution > h3{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #054752;
+}
+.covid_precaution_text{
+   margin-left: 10px; 
+   padding: 10px; 
+}
+.covid_precaution_text > h4{
+    font-weight: 400;
+    margin-top: 10px;
+}
+.covid_precaution_text > span{
+    text-decoration: underline;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.covid_precaution_text > span:hover{
+    cursor: pointer;
+}
+.covid_precaution_text > h4:hover{
+    cursor: pointer;
+}
+.options{
+    font-weight: 500;
+}
+.options:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.account:hover{
+    cursor: pointer;
+}
+.intro:hover{
+    cursor: pointer;
+}
+.covid_precaution > h3:hover{
+    cursor: pointer;
+}
+.faqBodyLeft_text>h3:hover{
+    cursor: pointer;
+}

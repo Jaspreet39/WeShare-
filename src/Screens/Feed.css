@@ -1,0 +1,24 @@
+.feed{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    text-align: left;
+    margin-right: 20px;
+}
+.feed_title{
+    left: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.feed_description{
+    color: gray;
+    font-weight: 600;
+}
+@media only screen and (max-width:750px){
+    .feed{
+        text-align: center;
+    }
+    .feed_description{
+       margin-bottom: 20px;
+    }
+}

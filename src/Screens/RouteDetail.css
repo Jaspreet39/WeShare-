@@ -1,0 +1,14 @@
+.routeDetail_source{
+    display: flex;
+    margin-top: 10px;
+}
+.routeDetail_destination{
+    display: flex;
+    margin-top: 5px;
+}
+.routeDetail_source > h4{
+    margin-left: 10px;
+}
+.routeDetail_destination > h4{
+    margin-left: 10px;
+}

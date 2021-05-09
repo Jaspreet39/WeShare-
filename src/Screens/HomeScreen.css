@@ -1,0 +1,24 @@
+.homeScreen_text{
+    display: flex;
+    padding: 10px;
+    background-color: #f6f6f6;
+    text-align: center;
+    justify-content: center;
+}
+.homeScreen_text > h3{
+    font-size: 1rem;
+    font-weight: 300;
+    color: gray;
+}
+.homeScreen_text > span{
+    color: blue;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.homeScreen_text > span:hover{
+    text-decoration: underline;
+}
+.homeScreen_info{
+    color: gray;
+    margin-right: 10px;
+}

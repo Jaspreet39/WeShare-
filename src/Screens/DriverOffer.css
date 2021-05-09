@@ -1,0 +1,12 @@
+.driverOffer_body{
+    display: flex;
+}
+@media only screen and (max-width: 800px){
+    .driverOffer_body{
+         display: flex;
+         flex-direction: column;
+         /* align-items: center; */
+    }
+
+}
+

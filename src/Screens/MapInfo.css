@@ -1,0 +1,14 @@
+ .mapInfo{
+     flex: 0.5;
+     height: 500px;
+     margin-right: 20px;
+     margin-top: 20px;
+     border-radius: 20px;
+     padding: 10px;    
+     z-index:1550000;
+     background-image: url("https://reactjsexample.com/content/images/2019/07/react-leaflet-marker-layer.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+} 
+

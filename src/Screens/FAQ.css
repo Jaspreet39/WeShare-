@@ -1,0 +1,10 @@
+.faq > hr{
+    margin-top: 10px;
+   height: 1px;
+   background-color: lightgray;
+   margin-bottom: 10px;
+}
+.faq_body{
+    display: flex;
+    margin-top: 50px;
+}
