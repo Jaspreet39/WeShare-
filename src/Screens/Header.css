@@ -7,6 +7,7 @@
   z-index: 100;
   width: 80%;
   margin:auto;
+  min-width: 550px;
   
 }
 .header--scroll{
@@ -20,9 +21,51 @@
    padding: 10px 0;
    cursor: pointer;
   }
+  .header_right{
+    display: flex;
+    align-items: center;
+  }
   .header_rightIcons{
     display: flex;   
+    align-items: center;
   }
   .header--scroll > img{
    padding: 10px;
+}
+
+.header_menu{
+ cursor: pointer;
+}
+.header_menuItems{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  width: 300px;
+  list-style: none; 
+}
+.header_closeIcon{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.header_closeIcon > p{
+  margin-left: 10px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.header_menu{
+  display: none;
+}
+@media only screen and (max-width:768px){
+  .header_rightIcons{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:768px){
+  .header_menu{
+    display: inline;
+  }
 }

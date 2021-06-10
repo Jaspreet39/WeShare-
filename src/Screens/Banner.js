@@ -25,7 +25,7 @@ function Banner() {
         e.preventDefault();
         setShowProgress(true)
         setButtonActive(true);
-        const ref= db.collection('route').doc("data");
+        const ref= db.collection('Find a ride').doc("data");
 
         const time = firebase.firestore.FieldValue.serverTimestamp();
 
@@ -33,6 +33,7 @@ function Banner() {
             timeStamp:time,
             email:user.email,
             leavingFrom:value1,
+            name:user.displayName,
             userId:user.uid,
         });
 
@@ -41,6 +42,7 @@ function Banner() {
             email:user.email,
             goingTo:value2,
             uid:user.uid,
+            name:user.displayName,
         }).then(()=>dispatch(setBannerData({src:value1,des:value2})))
         .then(()=> nextStep())
 
@@ -76,7 +78,7 @@ function Banner() {
                     <input value={value2} onChange={e=>setValue2(e.target.value)} placeholder="Going to" type="text"/>
                     {showProgress && <CircularProgress size={18}/>}
                     <button disabled={!buttonActive} style={{outline:0,border:'none'}} type="submit" onClick={setRoute}>
-                        <SearchIcon style={{color:buttonActive ? "green":"red" }} className="banner_inputButton"/>     
+                        <SearchIcon style={{color:buttonActive ? "green":"red" , cursor:buttonActive? "pointer" : "default"} } className="banner_inputButton"/>     
                     </button>
             </form>
 

@@ -15,7 +15,7 @@ function HomeScreen() {
             <Header/>
          <div className="homeScreen_text">
             <InfoIcon className="homeScreen_info"/>
-            <h3>CoronaVirus:for more information about thr current situation, please read our</h3>
+            <h3>CoronaVirus: for more information about thr current situation, please read our</h3>
             <span onClick={()=>history.push("/Faq")}>
                FAQ
             </span>             
